@@ -57,7 +57,7 @@ public class CEP_Service extends Service {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return START_STICKY;
+            return msg;
 
         }
     };
